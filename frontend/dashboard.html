@@ -1,0 +1,24 @@
+<section class="p-6">
+  <h1 class="text-2xl font-bold mb-4">Welcome back, <span id="username"></span> 👋</h1>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <!-- Progress -->
+    <div class="bg-gray-800 p-6 rounded-lg">
+      <h2 class="text-xl font-semibold mb-3">Your Progress</h2>
+      <p>Quiz Score: <span id="quizScore">0</span></p>
+      <div class="w-full bg-gray-600 rounded-full h-3 mb-3">
+        <div id="quizBar" class="bg-cyan-400 h-3 rounded-full w-0"></div>
+      </div>
+      <p>Phishing Score: <span id="phishingScore">0</span></p>
+      <div class="w-full bg-gray-600 rounded-full h-3">
+        <div id="phishingBar" class="bg-pink-400 h-3 rounded-full w-0"></div>
+      </div>
+    </div>
+
+    <!-- Badges -->
+    <div class="bg-gray-800 p-6 rounded-lg">
+      <h2 class="text-xl font-semibold mb-3">Your Badges</h2>
+      <div id="badgesContainer" class="flex gap-3 flex-wrap"></div>
+    </div>
+  </div>
+</section>
